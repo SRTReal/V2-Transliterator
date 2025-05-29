@@ -1,0 +1,257 @@
+@font-face {
+  font-family: Arius;
+  src: url(fonts/Arius.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Thule;
+  src: url(fonts/SBL_grk.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: Arius;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  max-width: 1300px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.boxBig {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100%;
+  min-height: 120px;
+  overflow: hidden;
+  resize: none;
+  font-family: Gentium Book Plus;
+  font-size: 1.5rem;
+}
+
+.btn__cls1 {
+  text-transform: uppercase;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #f0c40f;
+  background-image: linear-gradient(to top,#f0c40f 0%, #f6e18f 100%);
+  text-decoration: none;
+  cursor: auto;
+  list-style: none;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+  font-family: Gentium Book Plus;
+}
+
+.bg a {
+  text-transform: uppercase;
+  background-color: #f0c40f;
+  background-image: linear-gradient(to top,#f0c40f 0%, #f6e18f 100%);
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+  position: absolute;
+  margin-left: 1rem;
+  padding-top: 1rem
+}
+
+.bg {
+  background: #131313;
+  height: 80px;
+  /* align-items: center;
+  justify-content: center; */
+  display: flex;
+  cursor: none;
+}
+
+.bg a:hover {
+  background-image: linear-gradient(to left, #f5c60a, #f5c60a 50%, #fff 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: flex;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s ease-in-out;
+  padding-top: 1rem
+}
+
+.bg a:before{
+  content: '';
+  background: #f5c60a;
+  display: block;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 0;
+  height: 2.5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.bg a:hover::before{
+  width: 100%;
+}
+
+.abc__button {
+  padding: 5px;
+  font-size: 1.2rem;
+  margin-right: 0.6rem;
+  margin-left: 0.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.cls1__container {
+  display: flex;
+  justify-content: center
+} 
+
+.btn__cls1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.character {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.container__archaic {
+  flex:1;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container__instructions {
+  flex:1;
+}
+
+.container__diaresis {
+  flex:1;
+}
+
+.container__instructions ul {
+  text-align: center;
+}
+
+.container__instructions ul li {
+  font-family: Gentium Book Plus;
+  list-style-type: style circle;
+  text-align: left;
+}
+
+.n {
+  color: rgb(138, 4, 4);
+  font-family: Gentium Book Plus;
+  font-weight: bold;
+}
+
+.title__archaic {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.button__container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title__diaresis {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 24px; /* Adjust size as needed */
+}
+
+.symbol {
+  flex:1;
+  position: relative;
+  align-items: center;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+}
+
+.symboln {
+  flex:1;
+  position: relative;
+  align-items: center;
+  padding-right: 0.2rem;
+}
+
+.symbolnn {
+  flex:1;
+  position: relative;
+  align-items: center;
+  padding-right: 0.2rem;
+}
+
+.symbolnni {
+  flex:1;
+  position: relative;
+  align-items: center;
+  padding-right: 0.2rem;
+}
+
+.brackets {
+  flex:1;
+  margin: 0;
+}
+
+.left-img {
+  height:155px;
+  margin-bottom: -8px;
+}
+
+.right-img {
+  height:155px;
+  margin-bottom: -8px;
+}
